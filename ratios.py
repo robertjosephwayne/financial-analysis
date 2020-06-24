@@ -133,9 +133,10 @@ def dividend_yield(dividend_per_share, market_price):
     return dividend_per_share / market_price
 
 
-# Earnings per Share Ratio
-# The earnings per share ratio measures the amount of net income earned for each share outstanding:
-# Earnings per share ratio = Net earnings / Total shares outstanding
+# Earnings per Share Ratio (EPS) = (Net Income - Preferred Dividends) / Total Shares Outstanding
+def eps(net_income, preferred_dividends, shares_outstanding):
+    """Measures the amount of net income earned for each share outstanding"""
+    return (net_income - preferred_dividends) / shares_outstanding
 
 
 # Price-Earnings Ratio
