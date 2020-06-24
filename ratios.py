@@ -4,7 +4,7 @@
 # Current Ratio = Current Assets / Current Liabilities
 def current_ratio(current_assets, current_liabilities):
     """Measures a company's ability to pay off short-term liabilities with current assets"""
-    return current_assets / current_liabilities + 1
+    return current_assets / current_liabilities
 
 
 # Acid-test Ratio = (Current Assets – Inventory) / Current Liabilities
