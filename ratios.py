@@ -38,9 +38,11 @@ def debt_ratio(total_liabilities, total_assets):
     return total_liabilities / total_assets
 
 
-# Debt to Equity Ratio
-# The debt to equity ratio calculates the weight of total debt and financial liabilities against shareholders’ equity:
-# Debt to equity ratio = Total liabilities / Shareholder’s equity
+# Debt to Equity Ratio = Total Liabilities / Shareholder’s Equity
+def debt_to_equity_ratio(total_liabilities, total_equity):
+    """The debt to equity ratio calculates the weight of total debt and
+    financial liabilities against shareholders’ equity"""
+    return total_liabilities / total_equity
 
 
 # Interest Coverage Ratio
