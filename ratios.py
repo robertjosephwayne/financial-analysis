@@ -139,6 +139,7 @@ def eps(net_income, preferred_dividends, shares_outstanding):
     return (net_income - preferred_dividends) / shares_outstanding
 
 
-# Price-Earnings Ratio
-# The price-earnings ratio compares a company’s share price to its earnings per share:
-# Price-earnings ratio = Share price / Earnings per share
+# Price-Earnings Ratio = Market Price per Share / Earnings per Share
+def pe(market_price, eps):
+    """Compares a company’s share price to its earnings per share"""
+    return market_price / eps
