@@ -38,7 +38,7 @@ def debt_ratio(total_liabilities, total_assets):
     return total_liabilities / total_assets
 
 
-# Debt to Equity Ratio = Total Liabilities / Total Shareholder’s Equity
+# Debt to Equity Ratio = Total Liabilities / Total Shareholders' Equity
 def debt_to_equity_ratio(total_liabilities, total_equity):
     """Calculates the weight of total debt and financial liabilities
     against shareholders’ equity"""
@@ -97,23 +97,23 @@ def gross_margin(gross_profit, net_sales):
     return gross_profit / net_sales
 
 
-# Operating Margin Ratio = Operating income / Net sales
+# Operating Margin Ratio = Operating Income / Net sales
 def operating_margin(operating_income, net_sales):
     """Measures how much profit a company makes after paying its operating expenses"""
     return operating_income / net_sales
 
 
-# Return on Assets Ratio = Net income / Total assets
+# Return on Assets Ratio = Net Income / Total Assets
 def roa(net_income, total_assets):
     """Measures how efficiently a company is using its assets to generate profit"""
     return net_income / total_assets
 
 
-# The return on equity ratio measures how efficiently a company is using its equity to generate profit:
+# Return on Equity Ratio = Net Income / Total Shareholders' Equity
+def roe(net_income, total_equity):
+    """Measures how efficiently a company is using its equity to generate profit"""
+    return net_income / total_equity
 
-
-# Return on Equity Ratio
-# Return on equity ratio = Net income / Shareholder’s equity
 
 # Market Value Ratios
 
