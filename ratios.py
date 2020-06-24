@@ -97,9 +97,10 @@ def gross_margin(gross_profit, net_sales):
     return gross_profit / net_sales
 
 
-# Operating Margin Ratio
-# The operating margin ratio compares the operating income of a company to its net sales to determine operating efficiency:
-# Operating margin ratio = Operating income / Net sales
+# Operating Margin Ratio = Operating income / Net sales
+def operating_margin(operating_income, net_sales):
+    """Measures how much profit a company makes after paying its operating expenses"""
+    return operating_income / net_sales
 
 
 # Return on Assets Ratio
