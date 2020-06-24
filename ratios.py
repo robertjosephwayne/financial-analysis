@@ -80,13 +80,16 @@ def ar_turnover_ratio(net_credit_sales, average_ar):
     return net_credit_sales / average_ar
 
 
-# Days Sales in Inventory Ratio
-# The days sales in inventory ratio measures the average number of days that a company holds on to inventory before selling it to customers:
-# Days sales in inventory ratio = 365 days / Inventory turnover ratio
+# Days Sales in Inventory Ratio (DSI) = 365 days / Inventory Turnover Ratio
+def dsi_ratio(cogs, average_inventory, period=365):
+    """Measures the average number of days that a company holds on to
+    inventory before selling it to customers"""
+    return period / inventory_turnover_ratio(cogs, average_inventory)
+
 
 # Profitability Ratios
+# Measure a company’s ability to generate income
 
-# Profitability ratios measure a company’s ability to generate income relative to revenue, balance sheet assets, operating costs, and equity. Common profitability financial ratios include the following:
 
 # Gross Margin Ratio
 # The gross margin ratio compares the gross profit of a company to its net sales to show how much profit a company makes after paying its cost of goods sold:
