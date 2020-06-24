@@ -126,9 +126,11 @@ def book_value_per_share(total_equity, shares_outstanding):
     return total_equity / shares_outstanding
 
 
-# Dividend Yield Ratio
-# The dividend yield ratio measures the amount of dividends attributed to shareholders relative to the market value per share:
-# Dividend yield ratio = Dividend per share / Share price
+# Dividend Yield Ratio = Dividend per Share / Market Price per Share
+def dividend_yield(dividend_per_share, market_price):
+    """Measures the amount of dividends attributed to shareholders relative
+    to the market value per share"""
+    return dividend_per_share / market_price
 
 
 # Earnings per Share Ratio
