@@ -52,10 +52,11 @@ def interest_coverage_ratio(operating_income, interest_expense):
     return operating_income / interest_expense
 
 
-# Debt Service Coverage Ratio
-# The debt service coverage ratio reveals how easily a company can pay its debt obligations:
-# Debt service coverage ratio = Operating income / Total debt service
-
+# Debt Service Coverage Ratio = Operating Income / Total Debt Service
+def debt_service_coverage_ratio(operating_income, debt_service):
+    """The debt service coverage ratio reveals how easily a company
+    can pay its debt obligations"""
+    return operating_income / debt_service
 
 
 # Efficiency Ratios
