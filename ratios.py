@@ -117,12 +117,13 @@ def roe(net_income, total_equity):
 
 # Market Value Ratios
 
-# Market value ratios are used to evaluate the share price of a company’s stock. Common market value ratios include the following:
+# Used to evaluate the share price of a company’s stock.
 
 
-# Book Value per Share Ratio
-# The book value per share ratio calculates the per-share value of a company based on equity available to shareholders:
-# Book value per share ratio = Shareholder’s equity / Total shares outstanding
+# Book Value per Share Ratio = Total Shareholders' Equity / Total Shares Outstanding
+def book_value_per_share(total_equity, shares_outstanding):
+    """Calculates the per-share value of a company based on equity available to shareholders"""
+    return total_equity / shares_outstanding
 
 
 # Dividend Yield Ratio
