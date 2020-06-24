@@ -26,9 +26,9 @@ def operating_cash_flow_ratio(operating_cash_flow, current_liabilities):
     a company can pay off current liabilities with the cash generated in a given period"""
     return operating_cash_flow / current_liabilities
 
-# Leverage Financial Ratios
 
-# Leverage ratios measure the amount of capital that comes from debt.
+# Leverage Financial Ratios
+# Measure the amount of capital that comes from debt.
 
 
 # Debt Ratio = Total Liabilities / Total Assets
@@ -60,10 +60,8 @@ def debt_service_coverage_ratio(operating_income, debt_service):
 
 
 # Efficiency Ratios
+# Measure how well a company is utilizing its assets and resources.
 
-# Efficiency ratios, also known as activity financial ratios, are used to
-# measure how well a company is utilizing its assets and resources.
-#
 
 # Asset Turnover Ratio = Net Sales / Total Assets
 def asset_turnover_ratio(net_sales, total_assets):
@@ -79,9 +77,11 @@ def inventory_turnover_ratio(cogs, average_inventory):
     return cogs / average_inventory
 
 
-# Accounts Receivable Turnover
-# The accounts receivable turnover ratio measures how many times a company can turn receivables into cash over a given period:
-# Receivables turnover ratio = Net credit sales / Average accounts receivable
+# Accounts Receivable Turnover Ratio = Net Credit Sales / Average Accounts Receivable
+def ar_turnover_ratio(net_credit_sales, average_ar):
+    """The accounts receivable turnover ratio measures how many times a company can turn
+    receivables into cash over a given period"""
+    return net_credit_sales / average_ar
 
 
 # Days Sales in Inventory Ratio
