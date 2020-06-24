@@ -15,15 +15,15 @@ def acid_test_ratio(current_assets, current_liabilities, inventory):
 
 # Cash Ratio = Cash and Cash Equivalents / Current Liabilities
 def cash_ratio(cash_and_equivalents, current_liabilities):
-    """The cash ratio measures a company’s ability to pay off short-term
-    liabilities with cash and cash equivalents"""
+    """Measures a company’s ability to pay off short-term liabilities
+    with cash and cash equivalents"""
     return cash_and_equivalents / current_liabilities
 
 
 # Operating Cash Flow Ratio = Operating Cash Flow / Current Liabilities
 def operating_cash_flow_ratio(operating_cash_flow, current_liabilities):
-    """The operating cash flow ratio is a measure of the number of times
-    a company can pay off current liabilities with the cash generated in a given period"""
+    """Measures the number of times a company can pay off current
+    liabilities with the cash generated in a given period"""
     return operating_cash_flow / current_liabilities
 
 
@@ -33,29 +33,27 @@ def operating_cash_flow_ratio(operating_cash_flow, current_liabilities):
 
 # Debt Ratio = Total Liabilities / Total Assets
 def debt_ratio(total_liabilities, total_assets):
-    """The debt ratio measures the relative amount of a company’s assets that are
+    """Measures the relative amount of a company’s assets that are
     provided from debt"""
     return total_liabilities / total_assets
 
 
 # Debt to Equity Ratio = Total Liabilities / Total Shareholder’s Equity
 def debt_to_equity_ratio(total_liabilities, total_equity):
-    """The debt to equity ratio calculates the weight of total debt and
-    financial liabilities against shareholders’ equity"""
+    """Calculates the weight of total debt and financial liabilities
+    against shareholders’ equity"""
     return total_liabilities / total_equity
 
 
 # Interest Coverage Ratio = Operating Income / Interest Expense
 def interest_coverage_ratio(operating_income, interest_expense):
-    """The interest coverage ratio shows how easily a company can pay
-    its interest expenses"""
+    """Measures how easily a company can pay its interest expenses"""
     return operating_income / interest_expense
 
 
 # Debt Service Coverage Ratio = Operating Income / Total Debt Service
 def debt_service_coverage_ratio(operating_income, debt_service):
-    """The debt service coverage ratio reveals how easily a company
-    can pay its debt obligations"""
+    """Measures how easily a company can pay its debt obligations"""
     return operating_income / debt_service
 
 
@@ -65,22 +63,20 @@ def debt_service_coverage_ratio(operating_income, debt_service):
 
 # Asset Turnover Ratio = Net Sales / Total Assets
 def asset_turnover_ratio(net_sales, total_assets):
-    """The asset turnover ratio measures a company’s ability to
-    generate sales from assets"""
+    """Measures a company’s ability to generate sales from assets"""
     return net_sales / total_assets
 
 
 # Inventory Turnover Ratio = Cost of Goods Sold / Average Inventory
 def inventory_turnover_ratio(cogs, average_inventory):
-    """The inventory turnover ratio measures how many times a
-    company’s inventory is sold and replaced over a given period"""
+    """Measures how many times a company’s inventory is sold and
+    replaced over a given period"""
     return cogs / average_inventory
 
 
 # Accounts Receivable Turnover Ratio = Net Credit Sales / Average Accounts Receivable
 def ar_turnover_ratio(net_credit_sales, average_ar):
-    """The accounts receivable turnover ratio measures how many times a company can turn
-    receivables into cash over a given period"""
+    """Measures how many times a company can turn receivables into cash over a given period"""
     return net_credit_sales / average_ar
 
 
