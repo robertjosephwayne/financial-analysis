@@ -81,10 +81,10 @@ def ar_turnover_ratio(net_credit_sales, average_ar):
 
 
 # Days Sales in Inventory Ratio (DSI) = 365 days / Inventory Turnover Ratio
-def dsi_ratio(cogs, average_inventory, period=365):
+def dsi_ratio(inventory_turnover_ratio, period=365):
     """Measures the average number of days that a company holds on to
     inventory before selling it to customers"""
-    return period / inventory_turnover_ratio(cogs, average_inventory)
+    return period / inventory_turnover_ratio
 
 
 # Profitability Ratios
