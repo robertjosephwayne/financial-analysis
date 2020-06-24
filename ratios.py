@@ -62,12 +62,11 @@ def debt_ratio(total_liabilities, total_assets):
 
 def debt_to_equity_ratio(total_liabilities, total_equity):
     """
-
     Calculates the debt-to-equity ratio.
 
     Debt-to-Equity Ratio = Total Liabilities / Total Shareholders' Equity
 
-    Calculates the weight of total debt and financial liabilities against shareholders’ equity.
+    Measures the weight of total debt and financial liabilities against shareholders’ equity.
     """
     return total_liabilities / total_equity
 
@@ -198,7 +197,7 @@ def book_value_per_share(total_equity, shares_outstanding):
 
     Book Value per Share = Total Shareholders' Equity / Total Shares Outstanding
 
-    Calculates the per-share value of a company based on equity available to shareholders.
+    Measures the per-share value of a company based on equity available to shareholders.
     """
     return total_equity / shares_outstanding
 
