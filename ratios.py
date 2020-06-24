@@ -28,11 +28,14 @@ def operating_cash_flow_ratio(operating_cash_flow, current_liabilities):
 
 # Leverage Financial Ratios
 
-# Leverage ratios measure the amount of capital that comes from debt. In other words, leverage financial ratios are used to evaluate a company’s debt levels. Common leverage ratios include the following:
+# Leverage ratios measure the amount of capital that comes from debt.
 
-# Debt Ratio
-# The debt ratio measures the relative amount of a company’s assets that are provided from debt:
-# Debt ratio = Total liabilities / Total assets
+
+# Debt Ratio = Total Liabilities / Total Assets
+def debt_ratio(total_liabilities, total_assets):
+    """The debt ratio measures the relative amount of a company’s assets that are
+    provided from debt"""
+    return total_liabilities / total_assets
 
 
 # Debt to Equity Ratio

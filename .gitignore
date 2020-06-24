@@ -1,1 +1,182 @@
 # Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+venv/bin/
+venv/include/
+venv/lib/python3.6/site-packages/__pycache__/
+venv/lib/python3.6/site-packages/easy_install.py
+venv/lib/python3.6/site-packages/pip-20.1.1.dist-info/
+venv/lib/python3.6/site-packages/pip/__init__.py
+venv/lib/python3.6/site-packages/pip/__main__.py
+venv/lib/python3.6/site-packages/pip/__pycache__/
+venv/lib/python3.6/site-packages/pip/_internal/__init__.py
+venv/lib/python3.6/site-packages/pip/_internal/__pycache__/
+venv/lib/python3.6/site-packages/pip/_internal/build_env.py
+venv/lib/python3.6/site-packages/pip/_internal/cache.py
+venv/lib/python3.6/site-packages/pip/_internal/cli/
+venv/lib/python3.6/site-packages/pip/_internal/commands/
+venv/lib/python3.6/site-packages/pip/_internal/configuration.py
+venv/lib/python3.6/site-packages/pip/_internal/distributions/
+venv/lib/python3.6/site-packages/pip/_internal/exceptions.py
+venv/lib/python3.6/site-packages/pip/_internal/index/
+venv/lib/python3.6/site-packages/pip/_internal/locations.py
+venv/lib/python3.6/site-packages/pip/_internal/main.py
+venv/lib/python3.6/site-packages/pip/_internal/models/
+venv/lib/python3.6/site-packages/pip/_internal/network/
+venv/lib/python3.6/site-packages/pip/_internal/operations/__init__.py
+venv/lib/python3.6/site-packages/pip/_internal/operations/__pycache__/
+venv/lib/python3.6/site-packages/pip/_internal/operations/check.py
+venv/lib/python3.6/site-packages/pip/_internal/operations/freeze.py
+venv/lib/python3.6/site-packages/pip/_internal/operations/install/
+venv/lib/python3.6/site-packages/pip/_internal/operations/prepare.py
+venv/lib/python3.6/site-packages/pip/_internal/pyproject.py
+venv/lib/python3.6/site-packages/pip/_internal/req/
+venv/lib/python3.6/site-packages/pip/_internal/resolution/
+venv/lib/python3.6/site-packages/pip/_internal/self_outdated_check.py
+venv/lib/python3.6/site-packages/pip/_internal/utils/
+venv/lib/python3.6/site-packages/pip/_internal/vcs/
+venv/lib/python3.6/site-packages/pip/_internal/wheel_builder.py
+venv/lib/python3.6/site-packages/pip/_vendor/
+venv/lib/python3.6/site-packages/pkg_resources/
+venv/lib/python3.6/site-packages/setuptools-47.3.1.dist-info/
+venv/lib/python3.6/site-packages/setuptools/
+venv/pyvenv.cfg
