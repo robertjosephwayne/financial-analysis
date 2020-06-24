@@ -60,11 +60,16 @@ def debt_service_coverage_ratio(operating_income, debt_service):
 
 
 # Efficiency Ratios
-# Efficiency ratios, also known as activity financial ratios, are used to measure how well a company is utilizing its assets and resources. Common efficiency ratios include:
+
+# Efficiency ratios, also known as activity financial ratios, are used to
+# measure how well a company is utilizing its assets and resources.
 #
-# Asset Turnover Ratio
-# The asset turnover ratio measures a company’s ability to generate sales from assets:
-# Asset turnover ratio = Net sales / Total assets
+
+# Asset Turnover Ratio = Net Sales / Total Assets
+def asset_turnover_ratio(net_sales, total_assets):
+    """The asset turnover ratio measures a company’s ability to
+    generate sales from assets"""
+    return net_sales / total_assets
 
 
 # Inventory Turnover Ratio
