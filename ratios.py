@@ -38,16 +38,18 @@ def debt_ratio(total_liabilities, total_assets):
     return total_liabilities / total_assets
 
 
-# Debt to Equity Ratio = Total Liabilities / Shareholder’s Equity
+# Debt to Equity Ratio = Total Liabilities / Total Shareholder’s Equity
 def debt_to_equity_ratio(total_liabilities, total_equity):
     """The debt to equity ratio calculates the weight of total debt and
     financial liabilities against shareholders’ equity"""
     return total_liabilities / total_equity
 
 
-# Interest Coverage Ratio
-# The interest coverage ratio shows how easily a company can pay its interest expenses:
-# Interest coverage ratio = Operating income / Interest expenses
+# Interest Coverage Ratio = Operating Income / Interest Expense
+def interest_coverage_ratio(operating_income, interest_expense):
+    """The interest coverage ratio shows how easily a company can pay
+    its interest expenses"""
+    return operating_income / interest_expense
 
 
 # Debt Service Coverage Ratio
