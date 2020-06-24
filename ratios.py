@@ -20,9 +20,11 @@ def cash_ratio(cash_and_equivalents, current_liabilities):
     return cash_and_equivalents / current_liabilities
 
 
-# Operating Cash Flow Ratio
-# The operating cash flow ratio is a measure of the number of times a company can pay off current liabilities with the cash generated in a given period:
-# Operating cash flow ratio = Operating cash flow / Current liabilities
+# Operating Cash Flow Ratio = Operating Cash Flow / Current Liabilities
+def operating_cash_flow_ratio(operating_cash_flow, current_liabilities):
+    """The operating cash flow ratio is a measure of the number of times
+    a company can pay off current liabilities with the cash generated in a given period"""
+    return operating_cash_flow / current_liabilities
 
 # Leverage Financial Ratios
 
