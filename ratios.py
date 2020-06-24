@@ -103,9 +103,12 @@ def operating_margin(operating_income, net_sales):
     return operating_income / net_sales
 
 
-# Return on Assets Ratio
-# The return on assets ratio measures how efficiently a company is using its assets to generate profit:
-# Return on assets ratio = Net income / Total assets
+# Return on Assets Ratio = Net income / Total assets
+def roa(net_income, total_assets):
+    """Measures how efficiently a company is using its assets to generate profit"""
+    return net_income / total_assets
+
+
 # The return on equity ratio measures how efficiently a company is using its equity to generate profit:
 
 
