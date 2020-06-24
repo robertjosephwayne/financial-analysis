@@ -72,9 +72,11 @@ def asset_turnover_ratio(net_sales, total_assets):
     return net_sales / total_assets
 
 
-# Inventory Turnover Ratio
-# The inventory turnover ratio measures how many times a company’s inventory is sold and replaced over a given period:
-# Inventory turnover ratio = Cost of goods sold / Average inventory
+# Inventory Turnover Ratio = Cost of Goods Sold / Average Inventory
+def inventory_turnover_ratio(cogs, average_inventory):
+    """The inventory turnover ratio measures how many times a
+    company’s inventory is sold and replaced over a given period"""
+    return cogs / average_inventory
 
 
 # Accounts Receivable Turnover
