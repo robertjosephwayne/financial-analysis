@@ -91,9 +91,10 @@ def dsi_ratio(cogs, average_inventory, period=365):
 # Measure a company’s ability to generate income
 
 
-# Gross Margin Ratio
-# The gross margin ratio compares the gross profit of a company to its net sales to show how much profit a company makes after paying its cost of goods sold:
-# Gross margin ratio = Gross profit / Net sales
+# Gross Margin Ratio = Gross Profit / Net Sales
+def gross_margin(gross_profit, net_sales):
+    """Measures how much profit a company makes after paying its cost of goods sold"""
+    return gross_profit / net_sales
 
 
 # Operating Margin Ratio
